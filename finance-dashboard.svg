@@ -1,0 +1,12 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" fill="#0E1A2C"/>
+<circle cx="1050" cy="70" r="240" fill="#77E0BD" fill-opacity=".07"/>
+<rect x="92" y="92" width="1016" height="516" rx="28" fill="#13223A" stroke="#2A3A52"/>
+<rect x="138" y="142" width="90" height="90" rx="24" fill="#77E0BD"/>
+<text x="183" y="200" text-anchor="middle" fill="#06110D" font-family="Arial" font-size="34" font-weight="700">£</text>
+<text x="138" y="326" fill="#F4F7FB" font-family="Arial" font-size="54" font-weight="700">Personal Finance Dashboard</text>
+<text x="138" y="382" fill="#A9B4C5" font-family="Arial" font-size="28">Financial tracking and reporting system</text>
+<rect x="138" y="448" width="220" height="18" rx="9" fill="#77E0BD" fill-opacity=".75"/>
+<rect x="138" y="486" width="620" height="14" rx="7" fill="#A9B4C5" fill-opacity=".26"/>
+<rect x="138" y="520" width="520" height="14" rx="7" fill="#A9B4C5" fill-opacity=".18"/>
+</svg>
