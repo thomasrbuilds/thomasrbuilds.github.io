@@ -1,0 +1,20 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#0E1A2C"/>
+  <circle cx="1075" cy="65" r="255" fill="#77E0BD" fill-opacity=".07"/>
+  <circle cx="95" cy="690" r="280" fill="#77E0BD" fill-opacity=".04"/>
+  <rect x="72" y="72" width="1056" height="556" rx="30" fill="#13223A" stroke="#2A3A52"/>
+  <text x="118" y="155" fill="#77E0BD" font-family="Arial, sans-serif" font-size="26" font-weight="700">MSTR BITCOIN TREASURY MODEL</text>
+  <text x="118" y="225" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="54" font-weight="700">Scenario valuation</text>
+  <text x="118" y="278" fill="#A9B4C5" font-family="Arial, sans-serif" font-size="26">BTC price paths · capital raising · dilution · NAV sensitivity</text>
+  <rect x="118" y="335" width="270" height="160" rx="18" fill="#0E1A2C" stroke="#2A3A52"/>
+  <text x="145" y="380" fill="#A9B4C5" font-family="Arial, sans-serif" font-size="18">DYNAMIC TARGET</text>
+  <text x="145" y="444" fill="#77E0BD" font-family="Arial, sans-serif" font-size="48" font-weight="700">$404.38</text>
+  <rect x="420" y="335" width="270" height="160" rx="18" fill="#0E1A2C" stroke="#2A3A52"/>
+  <text x="447" y="380" fill="#A9B4C5" font-family="Arial, sans-serif" font-size="18">ENDING BTC</text>
+  <text x="447" y="444" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="43" font-weight="700">994,599</text>
+  <rect x="722" y="335" width="290" height="160" rx="18" fill="#0E1A2C" stroke="#2A3A52"/>
+  <text x="749" y="380" fill="#A9B4C5" font-family="Arial, sans-serif" font-size="18">BTC / SHARE GROWTH</text>
+  <text x="749" y="444" fill="#77E0BD" font-family="Arial, sans-serif" font-size="48" font-weight="700">+2.2%</text>
+  <path d="M120 555 C230 525, 290 565, 390 520 S560 455, 650 485 S820 415, 1030 380" fill="none" stroke="#77E0BD" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="1030" cy="380" r="9" fill="#77E0BD"/>
+</svg>
