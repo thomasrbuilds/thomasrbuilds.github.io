@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Quantum Computing Sector Allocation and Valuation Engine</title>
+  <desc id="desc">Dark professional dashboard showing risk-adjusted weights across IonQ, Quantinuum, D-Wave, Rigetti and Quantum Computing Inc.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.62" stop-color="#0b1b31"/>
+      <stop offset="1" stop-color="#071426"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43d9a3"/>
+      <stop offset="1" stop-color="#6ce7bd"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4aa9f5"/>
+      <stop offset="1" stop-color="#78c9ff"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffad45"/>
+      <stop offset="1" stop-color="#ffd18a"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#17304d" stroke-width="1" opacity="0.36"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000814" flood-opacity="0.46"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1425" cy="105" r="225" fill="#123c50" opacity="0.22"/>
+  <circle cx="1460" cy="88" r="130" fill="#1e6e69" opacity="0.13"/>
+
+  <!-- Quantum-orbit motif -->
+  <g transform="translate(1418 116)" opacity="0.9">
+    <ellipse rx="105" ry="40" fill="none" stroke="#4dd7a7" stroke-width="2" transform="rotate(18)" opacity="0.6"/>
+    <ellipse rx="105" ry="40" fill="none" stroke="#57b8ff" stroke-width="2" transform="rotate(138)" opacity="0.55"/>
+    <ellipse rx="105" ry="40" fill="none" stroke="#ffb454" stroke-width="2" transform="rotate(258)" opacity="0.48"/>
+    <circle r="10" fill="#eaf7ff" filter="url(#glow)"/>
+    <circle cx="92" cy="-18" r="7" fill="#4dd7a7"/>
+    <circle cx="-75" cy="-45" r="7" fill="#57b8ff"/>
+    <circle cx="-5" cy="78" r="7" fill="#ffb454"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="78" y="72" fill="#4dd7a7" font-size="16" font-weight="800" letter-spacing="3">QUANTUM SECTOR ANALYTICS</text>
+    <text x="78" y="126" fill="#ffffff" font-size="45" font-weight="800">Quantum Computing Allocation Engine</text>
+    <text x="78" y="163" fill="#9fb4ce" font-size="20">Architecture mapping, risk-adjusted weights, scenario valuation and stress testing</text>
+
+    <g transform="translate(78 192)">
+      <rect width="188" height="37" rx="18.5" fill="#112944" stroke="#24496e"/>
+      <text x="94" y="24" fill="#b9cae0" font-size="14" font-weight="700" text-anchor="middle">5 PUBLIC COMPANIES</text>
+      <rect x="200" width="181" height="37" rx="18.5" fill="#112944" stroke="#24496e"/>
+      <text x="290.5" y="24" fill="#b9cae0" font-size="14" font-weight="700" text-anchor="middle">RISK-ADJUSTED</text>
+      <rect x="393" width="194" height="37" rx="18.5" fill="#112944" stroke="#24496e"/>
+      <text x="490" y="24" fill="#b9cae0" font-size="14" font-weight="700" text-anchor="middle">2030 VALUATION</text>
+    </g>
+
+    <!-- KPI cards -->
+    <g transform="translate(78 262)" filter="url(#shadow)">
+      <rect width="292" height="112" rx="20" fill="#10233c" stroke="#284768"/>
+      <text x="24" y="32" fill="#91a6c0" font-size="13" font-weight="800" letter-spacing="1.3">PRIMARY VOLATILITY</text>
+      <text x="24" y="82" fill="#ffffff" font-size="38" font-weight="800">134.1%</text>
+      <path d="M235 74l15-16 14 10 15-29" fill="none" stroke="#ff6376" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="279" cy="39" r="5" fill="#ff6376"/>
+    </g>
+    <g transform="translate(390 262)" filter="url(#shadow)">
+      <rect width="292" height="112" rx="20" fill="#10233c" stroke="#284768"/>
+      <text x="24" y="32" fill="#91a6c0" font-size="13" font-weight="800" letter-spacing="1.3">EFFECTIVE POSITIONS</text>
+      <text x="24" y="82" fill="#ffffff" font-size="38" font-weight="800">3.76</text>
+      <g transform="translate(218 35)" fill="#4dd7a7">
+        <circle cx="0" cy="0" r="10"/><circle cx="34" cy="0" r="10"/><circle cx="0" cy="34" r="10"/><circle cx="34" cy="34" r="8" opacity="0.76"/><circle cx="68" cy="34" r="5" opacity="0.35"/>
+      </g>
+    </g>
+    <g transform="translate(702 262)" filter="url(#shadow)">
+      <rect width="292" height="112" rx="20" fill="#10233c" stroke="#284768"/>
+      <text x="24" y="32" fill="#91a6c0" font-size="13" font-weight="800" letter-spacing="1.3">TOP-TWO WEIGHT</text>
+      <text x="24" y="82" fill="#ffffff" font-size="38" font-weight="800">62.6%</text>
+      <rect x="216" y="44" width="54" height="38" rx="9" fill="#173b55"/>
+      <rect x="216" y="44" width="34" height="38" rx="9" fill="#57b8ff"/>
+    </g>
+    <g transform="translate(1014 262)" filter="url(#shadow)">
+      <rect width="508" height="112" rx="20" fill="#13283e" stroke="#2c4d6c"/>
+      <text x="24" y="32" fill="#91a6c0" font-size="13" font-weight="800" letter-spacing="1.3">CENTRAL RISK CONCLUSION</text>
+      <text x="24" y="66" fill="#ffffff" font-size="20" font-weight="800">Different architecture does not mean</text>
+      <text x="24" y="93" fill="#ffffff" font-size="20" font-weight="800">independent economic exposure.</text>
+    </g>
+
+    <!-- Allocation panel -->
+    <g transform="translate(78 404)" filter="url(#shadow)">
+      <rect width="916" height="410" rx="24" fill="#0e2037" stroke="#29496b"/>
+      <text x="28" y="43" fill="#ffffff" font-size="23" font-weight="800">Primary risk-adjusted allocation</text>
+      <text x="28" y="70" fill="#8fa8c5" font-size="14">Quality x commercial-success probability / square root of volatility</text>
+      <line x1="28" y1="91" x2="888" y2="91" stroke="#29496b"/>
+
+      <g transform="translate(28 116)">
+        <text x="0" y="17" fill="#ffffff" font-size="17" font-weight="800">IONQ</text>
+        <text x="78" y="17" fill="#8fa8c5" font-size="14">Trapped ion</text>
+        <rect x="210" width="532" height="26" rx="13" fill="#182f4a"/>
+        <rect x="210" width="531" height="26" rx="13" fill="url(#mint)"/>
+        <text x="770" y="19" fill="#ffffff" font-size="17" font-weight="800">39.9%</text>
+      </g>
+      <g transform="translate(28 172)">
+        <text x="0" y="17" fill="#ffffff" font-size="17" font-weight="800">QNT</text>
+        <text x="78" y="17" fill="#8fa8c5" font-size="14">Trapped ion</text>
+        <rect x="210" width="532" height="26" rx="13" fill="#182f4a"/>
+        <rect x="210" width="266" height="26" rx="13" fill="url(#cyan)"/>
+        <text x="770" y="19" fill="#ffffff" font-size="17" font-weight="800">20.0%</text>
+      </g>
+      <g transform="translate(28 228)">
+        <text x="0" y="17" fill="#ffffff" font-size="17" font-weight="800">QBTS</text>
+        <text x="78" y="17" fill="#8fa8c5" font-size="14">Annealing + gate</text>
+        <rect x="210" width="532" height="26" rx="13" fill="#182f4a"/>
+        <rect x="210" width="302" height="26" rx="13" fill="url(#amber)"/>
+        <text x="770" y="19" fill="#ffffff" font-size="17" font-weight="800">22.7%</text>
+      </g>
+      <g transform="translate(28 284)">
+        <text x="0" y="17" fill="#ffffff" font-size="17" font-weight="800">RGTI</text>
+        <text x="78" y="17" fill="#8fa8c5" font-size="14">Superconducting</text>
+        <rect x="210" width="532" height="26" rx="13" fill="#182f4a"/>
+        <rect x="210" width="126" height="26" rx="13" fill="#a78bfa"/>
+        <text x="770" y="19" fill="#ffffff" font-size="17" font-weight="800">9.5%</text>
+      </g>
+      <g transform="translate(28 340)">
+        <text x="0" y="17" fill="#ffffff" font-size="17" font-weight="800">QUBT</text>
+        <text x="78" y="17" fill="#8fa8c5" font-size="14">Photonics</text>
+        <rect x="210" width="532" height="26" rx="13" fill="#182f4a"/>
+        <rect x="210" width="105" height="26" rx="13" fill="#ff6376"/>
+        <text x="770" y="19" fill="#ffffff" font-size="17" font-weight="800">7.9%</text>
+      </g>
+    </g>
+
+    <!-- Right-side analysis panel -->
+    <g transform="translate(1014 404)" filter="url(#shadow)">
+      <rect width="508" height="410" rx="24" fill="#0e2037" stroke="#29496b"/>
+      <text x="26" y="42" fill="#ffffff" font-size="23" font-weight="800">What the spread changes</text>
+
+      <g transform="translate(26 70)">
+        <rect width="456" height="84" rx="16" fill="#132b40" stroke="#28556a"/>
+        <circle cx="34" cy="42" r="17" fill="#183f4c"/>
+        <path d="M26 42l6 6 11-14" fill="none" stroke="#4dd7a7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="66" y="32" fill="#ffffff" font-size="16" font-weight="800">Reduces single-company failure risk</text>
+        <text x="66" y="57" fill="#91a6c0" font-size="14">Several roadmaps and commercial routes survive.</text>
+      </g>
+
+      <g transform="translate(26 168)">
+        <rect width="456" height="84" rx="16" fill="#2d2531" stroke="#704753"/>
+        <circle cx="34" cy="42" r="17" fill="#4b2935"/>
+        <text x="34" y="49" fill="#ff8c99" font-size="22" font-weight="900" text-anchor="middle">!</text>
+        <text x="66" y="32" fill="#ffffff" font-size="16" font-weight="800">Does not remove sector-wide risk</text>
+        <text x="66" y="57" fill="#bda6ae" font-size="14">Funding, duration and sentiment remain shared.</text>
+      </g>
+
+      <text x="26" y="286" fill="#91a6c0" font-size="13" font-weight="800" letter-spacing="1.2">SELECTED MODEL SIGNALS</text>
+      <g transform="translate(26 306)">
+        <rect width="140" height="62" rx="13" fill="#112944"/>
+        <text x="15" y="23" fill="#91a6c0" font-size="11" font-weight="700">QNT CAP</text>
+        <text x="15" y="48" fill="#57b8ff" font-size="22" font-weight="800">20.0%</text>
+        <rect x="154" width="140" height="62" rx="13" fill="#112944"/>
+        <text x="169" y="23" fill="#91a6c0" font-size="11" font-weight="700">PANIC SHOCK</text>
+        <text x="169" y="48" fill="#ff6376" font-size="22" font-weight="800">-60.0%</text>
+        <rect x="308" width="148" height="62" rx="13" fill="#112944"/>
+        <text x="323" y="23" fill="#91a6c0" font-size="11" font-weight="700">MODEL STATUS</text>
+        <text x="323" y="48" fill="#4dd7a7" font-size="22" font-weight="800">CHECKS OK</text>
+      </g>
+    </g>
+
+    <text x="78" y="856" fill="#6f88a6" font-size="13">Public analytical model | Data through 30 Jun 2026 | QNT risk inputs are assumptions | Not investment advice</text>
+    <text x="1522" y="856" fill="#6f88a6" font-size="13" text-anchor="end">THOMASRBUILDS</text>
+  </g>
+</svg>
