@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas Investment Research OS preview</title>
+  <desc id="desc">A professional portfolio preview showing a research dashboard, public data sources, active companies, filings, alerts and an evidence-to-decision workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10b981" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#57b8ff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4dd7a7"/>
+      <stop offset="1" stop-color="#57b8ff"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#1d3853" stroke-width="1" opacity=".32"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#57b8ff"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="1000" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="1000" rx="34" fill="url(#grid)"/>
+  <path d="M905 0H1400V340C1264 282 1144 211 1060 126C1002 68 952 29 905 0Z" fill="url(#glow)"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(58 55)">
+      <rect width="10" height="10" rx="3" fill="#4dd7a7"/>
+      <text x="22" y="10" fill="#4dd7a7" font-size="15" font-weight="800" letter-spacing="3">PORTFOLIO INTELLIGENCE OS</text>
+    </g>
+
+    <text x="58" y="132" fill="#f4f8fd" font-size="55" font-weight="800" letter-spacing="-2">AI Investment Research</text>
+    <text x="58" y="192" fill="#f4f8fd" font-size="55" font-weight="800" letter-spacing="-2">Operating System</text>
+    <text x="61" y="232" fill="#9db2ca" font-size="18">SEC filings, XBRL fundamentals, FRED macro, thesis controls and decision memory</text>
+
+    <g transform="translate(58 263)" font-size="14" font-weight="700">
+      <rect width="126" height="38" rx="19" fill="#10263e" stroke="#284763"/>
+      <text x="22" y="25" fill="#b8c9dd">SEC EDGAR</text>
+      <rect x="138" width="105" height="38" rx="19" fill="#10263e" stroke="#284763"/>
+      <text x="166" y="25" fill="#b8c9dd">FRED</text>
+      <rect x="255" width="170" height="38" rx="19" fill="#10263e" stroke="#284763"/>
+      <text x="278" y="25" fill="#b8c9dd">GOOGLE SHEETS</text>
+      <rect x="437" width="154" height="38" rx="19" fill="#10263e" stroke="#284763"/>
+      <text x="461" y="25" fill="#b8c9dd">PYTHON + SQL</text>
+    </g>
+
+    <g transform="translate(1138 65)">
+      <circle cx="84" cy="84" r="73" fill="#0d243b" stroke="#284f70"/>
+      <circle cx="84" cy="84" r="42" fill="none" stroke="#4dd7a7" stroke-width="2" opacity=".8"/>
+      <circle cx="84" cy="84" r="9" fill="#eef7ff"/>
+      <circle cx="84" cy="42" r="7" fill="#57b8ff"/>
+      <circle cx="47" cy="101" r="7" fill="#4dd7a7"/>
+      <circle cx="121" cy="101" r="7" fill="#ffb454"/>
+      <path d="M84 42L47 101L121 101Z" fill="none" stroke="#5d91ba" stroke-width="2"/>
+      <path d="M84 11V1M84 167v-10M11 84H1M167 84h-10" stroke="#365c7c" stroke-width="2"/>
+    </g>
+
+    <g>
+      <g transform="translate(58 334)">
+        <rect width="303" height="126" rx="18" fill="#10243b" stroke="#294a68"/>
+        <text x="22" y="31" fill="#91a7c0" font-size="12" font-weight="800" letter-spacing="1.4">ACTIVE UNIVERSE</text>
+        <text x="22" y="82" fill="#f5f9fe" font-size="40" font-weight="800">8</text>
+        <text x="74" y="82" fill="#4dd7a7" font-size="15" font-weight="700">companies</text>
+        <path d="M22 104H281" stroke="#253f59"/>
+        <text x="22" y="119" fill="#7890aa" font-size="11">Public demo - no private balances</text>
+      </g>
+      <g transform="translate(385 334)">
+        <rect width="303" height="126" rx="18" fill="#10243b" stroke="#294a68"/>
+        <text x="22" y="31" fill="#91a7c0" font-size="12" font-weight="800" letter-spacing="1.4">MONITORED FILINGS</text>
+        <text x="22" y="82" fill="#f5f9fe" font-size="40" font-weight="800">76</text>
+        <text x="84" y="82" fill="#57b8ff" font-size="15" font-weight="700">source-linked</text>
+        <path d="M22 104H281" stroke="#253f59"/>
+        <text x="22" y="119" fill="#7890aa" font-size="11">10-K - 10-Q - 8-K</text>
+      </g>
+      <g transform="translate(712 334)">
+        <rect width="303" height="126" rx="18" fill="#10243b" stroke="#294a68"/>
+        <text x="22" y="31" fill="#91a7c0" font-size="12" font-weight="800" letter-spacing="1.4">OPEN ALERTS</text>
+        <text x="22" y="82" fill="#f5f9fe" font-size="40" font-weight="800">2</text>
+        <rect x="75" y="57" width="81" height="29" rx="14" fill="#5e2631" stroke="#9d4050"/>
+        <text x="94" y="77" fill="#ff9aa8" font-size="12" font-weight="800">1 HIGH</text>
+        <path d="M22 104H281" stroke="#253f59"/>
+        <text x="22" y="119" fill="#7890aa" font-size="11">Research prompts - never auto-trades</text>
+      </g>
+      <g transform="translate(1039 334)">
+        <rect width="303" height="126" rx="18" fill="#10243b" stroke="#294a68"/>
+        <text x="22" y="31" fill="#91a7c0" font-size="12" font-weight="800" letter-spacing="1.4">MODEL CHECKS</text>
+        <text x="22" y="82" fill="#4dd7a7" font-size="40" font-weight="800">OK</text>
+        <circle cx="260" cy="70" r="22" fill="#163f3a" stroke="#4dd7a7"/>
+        <path d="M249 70l8 8l15-19" fill="none" stroke="#4dd7a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 104H281" stroke="#253f59"/>
+        <text x="22" y="119" fill="#7890aa" font-size="11">Formula and scenario controls passed</text>
+      </g>
+    </g>
+
+    <g transform="translate(58 493)">
+      <rect width="780" height="363" rx="20" fill="#0d2036" stroke="#294a68"/>
+      <text x="24" y="39" fill="#f4f8fd" font-size="18" font-weight="800">Research queue</text>
+      <text x="638" y="38" fill="#4dd7a7" font-size="12" font-weight="700">LIVE STATE</text>
+      <path d="M24 58H756" stroke="#2a4864"/>
+      <g transform="translate(24 77)" font-size="11">
+        <rect width="732" height="34" rx="8" fill="#15314c"/>
+        <text x="15" y="22" fill="#91a7c0" font-weight="800">TICKER</text>
+        <text x="128" y="22" fill="#91a7c0" font-weight="800">PRIORITY</text>
+        <text x="247" y="22" fill="#91a7c0" font-weight="800">REVENUE YOY</text>
+        <text x="395" y="22" fill="#91a7c0" font-weight="800">TARGET UPSIDE</text>
+        <text x="548" y="22" fill="#91a7c0" font-weight="800">THESIS</text>
+        <text x="682" y="22" fill="#91a7c0" font-weight="800">ALERTS</text>
+      </g>
+      <g transform="translate(24 122)" font-size="13">
+        <g transform="translate(0 0)">
+          <text x="15" y="18" fill="#eaf2fa" font-weight="800">MSFT</text><text x="128" y="18" fill="#ffbf66">HIGH</text><text x="247" y="18" fill="#4dd7a7">18.3%</text><text x="395" y="18" fill="#4dd7a7">11.7%</text><text x="548" y="18" fill="#c8d6e5">ACTIVE</text><text x="706" y="18" fill="#91a7c0">0</text>
+          <path d="M0 34H732" stroke="#1d3853"/>
+        </g>
+        <g transform="translate(0 45)">
+          <text x="15" y="18" fill="#eaf2fa" font-weight="800">NVDA</text><text x="128" y="18" fill="#ffbf66">HIGH</text><text x="247" y="18" fill="#4dd7a7">85.2%</text><text x="395" y="18" fill="#4dd7a7">11.4%</text><text x="548" y="18" fill="#c8d6e5">ACTIVE</text><text x="706" y="18" fill="#91a7c0">0</text>
+          <path d="M0 34H732" stroke="#1d3853"/>
+        </g>
+        <g transform="translate(0 90)">
+          <text x="15" y="18" fill="#eaf2fa" font-weight="800">GOOGL</text><text x="128" y="18" fill="#ffbf66">HIGH</text><text x="247" y="18" fill="#4dd7a7">21.8%</text><text x="395" y="18" fill="#4dd7a7">9.2%</text><text x="548" y="18" fill="#c8d6e5">ACTIVE</text><text x="706" y="18" fill="#91a7c0">0</text>
+          <path d="M0 34H732" stroke="#1d3853"/>
+        </g>
+        <g transform="translate(0 135)">
+          <text x="15" y="18" fill="#eaf2fa" font-weight="800">IONQ</text><text x="128" y="18" fill="#ffbf66">HIGH</text><text x="247" y="18" fill="#4dd7a7">754.7%</text><text x="395" y="18" fill="#4dd7a7">28.3%</text><text x="548" y="18" fill="#c8d6e5">WATCH</text><rect x="684" y="3" width="31" height="23" rx="11" fill="#5e2631"/><text x="695" y="19" fill="#ff9aa8" font-weight="800">1</text>
+          <path d="M0 34H732" stroke="#1d3853"/>
+        </g>
+        <g transform="translate(0 180)">
+          <text x="15" y="18" fill="#eaf2fa" font-weight="800">MSTR</text><text x="128" y="18" fill="#ffbf66">HIGH</text><text x="247" y="18" fill="#4dd7a7">11.9%</text><text x="395" y="18" fill="#4dd7a7">32.1%</text><text x="548" y="18" fill="#c8d6e5">WATCH</text><rect x="684" y="3" width="31" height="23" rx="11" fill="#5a4320"/><text x="695" y="19" fill="#ffbf66" font-weight="800">1</text>
+          <path d="M0 34H732" stroke="#1d3853"/>
+        </g>
+      </g>
+      <g transform="translate(24 327)">
+        <rect width="732" height="20" rx="10" fill="#132c45"/>
+        <rect width="419" height="20" rx="10" fill="url(#accent)"/>
+        <text x="14" y="15" fill="#071426" font-size="10" font-weight="800">5 HIGH-PRIORITY NAMES REVIEWED WEEKLY</text>
+      </g>
+    </g>
+
+    <g transform="translate(866 493)">
+      <rect width="476" height="363" rx="20" fill="#0d2036" stroke="#294a68"/>
+      <text x="24" y="39" fill="#f4f8fd" font-size="18" font-weight="800">Evidence-to-decision path</text>
+      <path d="M24 58H452" stroke="#2a4864"/>
+
+      <g transform="translate(24 79)">
+        <rect width="128" height="66" rx="13" fill="#12304a" stroke="#2a5b7c"/>
+        <text x="18" y="28" fill="#57b8ff" font-size="12" font-weight="800">1 - EVIDENCE</text>
+        <text x="18" y="49" fill="#98afc7" font-size="11">SEC + FRED</text>
+        <path d="M139 33H166" stroke="#57b8ff" stroke-width="2" marker-end="url(#arrow)"/>
+        <rect x="176" width="128" height="66" rx="13" fill="#12304a" stroke="#2a5b7c"/>
+        <text x="194" y="28" fill="#57b8ff" font-size="12" font-weight="800">2 - SIGNALS</text>
+        <text x="194" y="49" fill="#98afc7" font-size="11">Rules + model</text>
+        <path d="M315 33H342" stroke="#57b8ff" stroke-width="2" marker-end="url(#arrow)"/>
+        <rect x="352" width="100" height="66" rx="13" fill="#163f3a" stroke="#4dd7a7"/>
+        <text x="366" y="28" fill="#4dd7a7" font-size="12" font-weight="800">3 - DECIDE</text>
+        <text x="366" y="49" fill="#b9d8cf" font-size="11">Human</text>
+      </g>
+
+      <text x="24" y="183" fill="#91a7c0" font-size="11" font-weight="800" letter-spacing="1.2">CURRENT EXCEPTIONS</text>
+      <g transform="translate(24 199)">
+        <rect width="428" height="58" rx="12" fill="#3f2029" stroke="#7f3443"/>
+        <circle cx="27" cy="29" r="13" fill="#74303d"/>
+        <text x="23" y="34" fill="#ff9aa8" font-size="15" font-weight="800">!</text>
+        <text x="52" y="24" fill="#f2cbd1" font-size="12" font-weight="800">IONQ - SHARE COUNT +50.6%</text>
+        <text x="52" y="43" fill="#b98c96" font-size="10">Review issuance, M&amp;A and per-share thesis impact</text>
+      </g>
+      <g transform="translate(24 268)">
+        <rect width="428" height="58" rx="12" fill="#3d301b" stroke="#7c6130"/>
+        <circle cx="27" cy="29" r="13" fill="#705625"/>
+        <text x="23" y="34" fill="#ffbf66" font-size="15" font-weight="800">i</text>
+        <text x="52" y="24" fill="#f3dfbb" font-size="12" font-weight="800">MSTR - NEW 8-K FILED</text>
+        <text x="52" y="43" fill="#bda77d" font-size="10">Open primary source before changing the thesis</text>
+      </g>
+      <text x="24" y="347" fill="#7890aa" font-size="10">ALERTS DIRECT ATTENTION - THEY DO NOT ROUTE ORDERS</text>
+    </g>
+
+    <g transform="translate(58 887)">
+      <rect width="1284" height="65" rx="16" fill="#eef3d7"/>
+      <rect width="10" height="65" rx="5" fill="#4dd7a7"/>
+      <text x="31" y="28" fill="#14243a" font-size="13" font-weight="800">OPERATING RULE</text>
+      <text x="31" y="48" fill="#526174" font-size="12">Open the source - update the thesis - record the decision - then change exposure.</text>
+      <text x="1117" y="38" fill="#1a6c57" font-size="12" font-weight="800">MODEL STATUS: CHECKED</text>
+    </g>
+  </g>
+</svg>
